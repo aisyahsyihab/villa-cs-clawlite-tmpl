@@ -1,0 +1,21 @@
+name: villa-cs
+description: ClawLite template for Villa Customer Service agent
+version: 1.0.0
+author: aisyahsyihab
+
+variables:
+  - name: VILLA_NAME
+    prompt: "Villa name?"
+    default: "Villa Indah"
+  - name: VILLA_ADDRESS
+    prompt: "Villa address?"
+    default: "Jl. Example No. 123, Yogyakarta"
+  - name: VILLA_PHONE
+    prompt: "Villa phone/WhatsApp?"
+    default: "+62812345678"
+  - name: CHECK_IN_TIME
+    prompt: "Check-in time?"
+    default: "14:00"
+  - name: CHECK_OUT_TIME
+    prompt: "Check-out time?"
+    default: "12:00"
